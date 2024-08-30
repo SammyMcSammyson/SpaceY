@@ -5,9 +5,9 @@ html {
 
 .standardpage {
   /*code for base of any page*/
-  /* background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg);
+  background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg);
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
   font-family: Helvetica;
   color: white;
 }
