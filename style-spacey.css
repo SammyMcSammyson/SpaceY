@@ -1,0 +1,89 @@
+html {
+  /*code for HTML page*/
+  scroll-behavior: smooth;
+}
+
+.standardpage {
+  /*code for base of any page*/
+  background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica;
+  color: white;
+}
+
+.nav {
+  /*code for Nav bar outside of all elements*/
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+ul {
+  /*code for Nav bar code for making a list*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  /*code for Nav bar elements in my list - need to figure out a way to automate if add more tabs*/
+  display: inline-block;
+  margin: 30px;
+  width: 15%;
+}
+
+li:first-child {
+  /*code for Nav bar moving the first element*/
+  text-align: start;
+}
+
+li a {
+  /*code for Nav bar making the individual elements in the list look nice*/
+  display: inline-block;
+  color: white;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+li a:hover {
+  /*code for Nav bar when hover over a list changes the color of the writing - not a highlight*/
+  color: lightblue;
+}
+
+.mainpageheader {
+  /*mainpage header - making it midway down page*/
+  margin: 20%;
+}
+
+.mainpagebutton {
+  /*making a button that takes me to another page*/
+  border: solid 5px white;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.mainpagebutton:hover {
+  /*when hover over button creates shadow and highlights the button - need to figure out how to do a slow fill of the box*/
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.795);
+  background-color: rgba(0, 84, 162, 0.776);
+  border-color: black;
+  transition-duration: 1s;
+}
+
+.deathstarimage {
+  /*image placement on deathstar page*/
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  height: 25%;
+  width: 20%;
+  filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(93%)
+    contrast(107%);
+}
