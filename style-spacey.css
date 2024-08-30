@@ -5,9 +5,10 @@ html {
 
 .standardpage {
   /*code for base of any page*/
-  background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuH1z2ERKeqjl0wF_FnfoIQwkuZKERoo-gw&s);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
   font-family: Helvetica;
   color: white;
 }
@@ -86,6 +87,33 @@ li a:hover {
   filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(93%)
     contrast(107%);
 }
+.falconimage {
+  /*image placement on millinium falcon page*/
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  height: 25%;
+  width: 20%;
+}
+.slaveIimage {
+  /*image placement on Slave I page*/
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  height: 25%;
+  width: 20%;
+  filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(93%)
+    contrast(107%);
+}
+
+.stardestroyerimage {
+  /*image placement on star destroyer page*/
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  height: 25%;
+  width: 20%;
+}
 
 .publisherfooter {
   /*placing name on bottom right*/
@@ -119,6 +147,7 @@ li a:hover {
 }
 
 .fa-facebook {
+  /*placing intagram photo*/
   position: fixed;
   bottom: 2%;
   left: 5%;
