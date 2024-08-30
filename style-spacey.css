@@ -86,3 +86,53 @@ li a:hover {
   filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(93%)
     contrast(107%);
 }
+
+.publisherfooter {
+  /*placing name on bottom right*/
+  position: fixed;
+  left: -1%;
+  bottom: 2%;
+  width: 100%;
+  text-align: right;
+  font-style: italic;
+}
+
+.fa-instagram {
+  /*placing intagram photo*/
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: radial-gradient(
+    circle at 30% 110%,
+    #ffdb8b 0%,
+    #ee653d 25%,
+    #d42e81 50%,
+    #a237b6 75%,
+    #3e57bc 100%
+  );
+  border-radius: 10px;
+  opacity: 0.1;
+}
+
+.fa-facebook {
+  position: fixed;
+  bottom: 2%;
+  left: 5%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  opacity: 0.1;
+  background-color: #1877f2;
+}
+
+.fa:hover {
+  /*generic hover for social media*/
+  box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.795);
+  opacity: 1;
+}
