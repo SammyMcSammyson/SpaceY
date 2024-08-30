@@ -1,8 +1,3 @@
-html {
-  /*code for HTML page*/
-  scroll-behavior: smooth;
-}
-
 .standardpage {
   /*code for base of any page*/
   background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg),
@@ -70,11 +65,78 @@ li a:hover {
 .mainpagebutton:hover {
   /*when hover over button creates shadow and highlights the button - need to figure out how to do a slow fill of the box*/
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 100px;
   box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.795);
   background-color: rgba(0, 84, 162, 0.776);
   border-color: black;
-  transition-duration: 1s;
+  transition-duration: 1.5s;
+}
+
+.landingpage {
+  /*landing page generic info*/
+  background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuH1z2ERKeqjl0wF_FnfoIQwkuZKERoo-gw&s);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  font-family: Helvetica;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.animation {
+  /*animiation for tv stacic - background-image from internet*/
+
+  background-image: repeating-radial-gradient(
+    circle at 17% 32%,
+    white,
+    black 0.00085px
+  );
+  background-position: center;
+  animation: back 5s linear infinite;
+  border-radius: 10px;
+  width: 800px;
+  height: 400px;
+  margin-left: 30%;
+  margin-top: 10%;
+  opacity: 0;
+}
+
+.animation:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition-duration: 3s;
+}
+
+@keyframes /*basic but works - i imagine its easier in JS*/ back {
+  from {
+    background-size: 100% 100%;
+  }
+  to {
+    background-size: 200% 200%;
+  }
+}
+
+.landingpagebutton {
+  /*making a landing button that takes me to home page*/
+  border: none;
+  border-radius: 10px;
+  width: 800px;
+  height: 400px;
+  margin-top: 10%;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+}
+
+.landingpagebutton:hover {
+  /*when hover over button creates shadow and highlights the button*/
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition-duration: 3s;
+  transition-delay: 3s;
+  opacity: 1;
 }
 
 .deathstarimage {
