@@ -136,7 +136,7 @@ li a:hover {
   border-radius: 10px;
   transition-duration: 3s;
   transition-delay: 3s;
-  opacity: 1;
+  opacity: 0.85;
 }
 
 .deathstarimage {
