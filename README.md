@@ -3,12 +3,18 @@
 Reflection
 
 🎯 What requirements did you achieve?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 Ensure each section of the webpage is wrapped in the correct semantic tags, ensuring that it includes a <header>, <nav>, and <footer>. YES
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 Implement CSS absolute positioning to overlay text on an image or another element. YES
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 Utilise CSS Flexbox to create a flexible and responsive layout, particularly in the <nav> element. YES
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 Ensure all image elements (<img>) are correctly implemented with accurate src file paths. YES
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 Were there any requirements or goals that you were unable to achieve? NO
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 If so, what was it that you found difficult about these tasks? I found placement difficult but practising alot helps.
+&nbsp;🎯 Ensure each section of the webpage is wrapped in the correct semantic tags, ensuring that it includes a <header>, <nav>, and <footer>.
+&nbsp;&nbsp;YES
+&nbsp;🎯 Implement CSS absolute positioning to overlay text on an image or another element.
+&nbsp;&nbsp;YES
+&nbsp;🎯 Utilise CSS Flexbox to create a flexible and responsive layout, particularly in the <nav> element.
+&nbsp;&nbsp;YES
+&nbsp;🎯 Ensure all image elements (<img>) are correctly implemented with accurate src file paths.
+&nbsp;&nbsp;YES
+&nbsp;🎯 Were there any requirements or goals that you were unable to achieve?
+NO
+&nbsp;🎯 If so, what was it that you found difficult about these tasks?
+&nbsp;&nbsp; I found placement difficult but practising alot helps.
 
 Stretch Requirements
 🏹 Create a "back to top" button. YES
