@@ -260,6 +260,98 @@ li a:hover {
   padding: 10%;
 }
 
+.slave1history {
+  /*making a button that takes me to a link page*/
+  border: solid 5px white;
+  display: inline-flex;
+  padding: 10px;
+  margin-top: 20%;
+  margin-left: 45%;
+  color: white;
+  text-decoration: none;
+}
+
+.slave1history:hover {
+  /*when hover over button creates shadow and highlights the button - need to figure out how to do a slow fill of the box*/
+  cursor: pointer;
+  border-radius: 100px;
+  box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.795);
+  background-color: rgba(0, 84, 162, 0.776);
+  border-color: black;
+  transition-duration: 1.5s;
+}
+
+.slave1text {
+  /*generic text needed for information*/
+  margin-top: 90%;
+  font-size: larger;
+  padding: 2%;
+  color: orange;
+  border-radius: 10px;
+  padding: 10%;
+}
+
+.deathhistory {
+  /*making a button that takes me to a link page*/
+  border: solid 5px white;
+  display: inline-flex;
+  padding: 10px;
+  margin-top: 20%;
+  margin-left: 45%;
+  color: white;
+  text-decoration: none;
+}
+
+.deathhistory:hover {
+  /*when hover over button creates shadow and highlights the button - need to figure out how to do a slow fill of the box*/
+  cursor: pointer;
+  border-radius: 100px;
+  box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.795);
+  background-color: rgba(0, 84, 162, 0.776);
+  border-color: black;
+  transition-duration: 1.5s;
+}
+
+.deathtext {
+  /*generic text needed for information*/
+  margin-top: 100%;
+  font-size: larger;
+  padding: 2%;
+  color: orange;
+  border-radius: 10px;
+  padding: 10%;
+}
+
+.sdhistory {
+  /*making a button that takes me to a link page*/
+  border: solid 5px white;
+  display: inline-flex;
+  padding: 10px;
+  margin-top: 20%;
+  margin-left: 45%;
+  color: white;
+  text-decoration: none;
+}
+
+.sdeath:hover {
+  /*when hover over button creates shadow and highlights the button - need to figure out how to do a slow fill of the box*/
+  cursor: pointer;
+  border-radius: 100px;
+  box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.795);
+  background-color: rgba(0, 84, 162, 0.776);
+  border-color: black;
+  transition-duration: 1.5s;
+}
+
+.sdtext {
+  /*generic text needed for information*/
+  margin-top: 100%;
+  font-size: larger;
+  padding: 2%;
+  color: orange;
+  border-radius: 10px;
+  padding: 10%;
+}
 .top {
   /*button for back to top it took a while to work out*/
   --offset: 50px;
