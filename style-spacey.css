@@ -1,11 +1,12 @@
 .standardpage {
   /*code for base of any page*/
-  background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg),
-    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuH1z2ERKeqjl0wF_FnfoIQwkuZKERoo-gw&s);
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
+  background-image: url(https://cdn.pixabay.com/video/2024/03/19/204739-925166451_tiny.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: Helvetica;
   color: white;
+  scroll-behavior: smooth;
 }
 .nav {
   /*code for Nav bar outside of all elements*/
@@ -226,4 +227,53 @@ li a:hover {
   /*generic hover for social media*/
   box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.795);
   opacity: 1;
+}
+
+.falconhistory {
+  /*making a button that takes me to a link page*/
+  border: solid 5px white;
+  display: inline-flex;
+  padding: 10px;
+  margin-top: 20%;
+  margin-left: 45%;
+  color: white;
+  text-decoration: none;
+}
+
+.falconhistory:hover {
+  /*when hover over button creates shadow and highlights the button - need to figure out how to do a slow fill of the box*/
+  cursor: pointer;
+  border-radius: 100px;
+  box-shadow: 0 5px 35px 0px rgba(255, 255, 255, 0.795);
+  background-color: rgba(0, 84, 162, 0.776);
+  border-color: black;
+  transition-duration: 1.5s;
+}
+
+.falcontext {
+  /*generic text needed for information*/
+  margin-top: 100%;
+  font-size: larger;
+  padding: 2%;
+  color: orange;
+  border-radius: 10px;
+  padding: 10%;
+}
+
+.top {
+  /*button for back to top it took a while to work out*/
+  --offset: 50px;
+
+  position: sticky;
+  bottom: 20px;
+  margin-left: 85%;
+  margin-top: calc(
+    100vh + var(--offset)
+  ); /*took me ages to work this out - apparently its JS*/
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
 }
